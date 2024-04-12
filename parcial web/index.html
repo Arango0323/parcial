@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./parcial.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+    </script>
+    <title>rick and morty</title>
+</head>
+<body id="Container">
+    <h2 class="titulo">Escriba el numero del personaje que desea buscar</h2>
+<input type="text" name="input_personaje" id="input_personaje">
+<button id="Button_search" onclick="obtenerValorInput()">Buscar</button>
+<div id="Caracter_information">
+    <h3 class="titulo">informacion del personaje</h3>
+    <div id="show_info"></div>
+</div>
+</body>
+</html>
